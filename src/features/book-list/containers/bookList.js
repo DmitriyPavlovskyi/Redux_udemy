@@ -8,7 +8,7 @@ import BookItem from '../components/bookItem';
 class BookList extends Component {
   render() {
     return (
-      <ul className="list-group col-sm-4">
+      <ul className="col list-group col-sm-4">
         {this.renderList()}
       </ul>
     )
